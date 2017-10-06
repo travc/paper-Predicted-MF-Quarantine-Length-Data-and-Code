@@ -3,6 +3,8 @@ Data and code for the paper "Evaluation of predicted Medfly (Ceratitis capitata)
 
 ### General Notes
 
+`.ipnb` files are Jupyter Notebooks (Python 3 kernel), which GitHub helpfully displays nicely.
+
 `.h5` files are hdf5 format files readable by the Python Pandas module or other standard tools.
 
 
