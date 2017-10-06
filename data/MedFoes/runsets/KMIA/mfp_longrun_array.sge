@@ -1,0 +1,36 @@
+#!/bin/sh
+#$-N med-foes-p_longrun
+#$-S /bin/sh
+#$-o sge_$JOB_ID.out
+#$-e sge_$JOB_ID.err
+#$-q all.q
+#$-pe orte 15
+#$-cwd
+#$-V
+#$-m n
+#$-sync yes
+#$-b yes
+#$-p -64
+#$-t 1-3496
+
+# Run medfoes staring once every 7 days for 1950 to 2017 (3496 steps)
+# NOTE: Need to change -t line above if changing date range
+
+BASEDIR="$PWD"
+
+TFILE="$BASEDIR/temperature_file.csv"
+
+JAR="$BASEDIR/../../MedFoesP-0.6.2.jar"
+CFGFILE="$BASEDIR/mfp.cfg"
+OUTDIR=`printf "$BASEDIR/out/step_%06d" $SGE_TASK_ID`
+JAVA='/home/travc/jdk/jdk1.8.0_131/bin/java'
+NICE_LVL=9
+
+let STEP_SIZE=24*7
+let tskip=($SGE_TASK_ID-1)*$STEP_SIZE
+
+echo '#####' Running $SGE_TASK_ID Tskip=$tskip out=$OUTDIR
+mkdir -p "$OUTDIR" && \
+nice -n $NICE_LVL \
+$JAVA -jar "$JAR" -f "$CFGFILE" -T "$TFILE" -Tskip $tskip -o "$OUTDIR"
+

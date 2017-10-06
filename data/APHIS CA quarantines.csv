@@ -1,0 +1,37 @@
+Fruit Fly Name,Year,City,County,near station,far,Start Date,End Date,Area (Mi2),Q Code,Male (Mature),Fe Imm (Unmated),Fe Mature (Unmated),Female (Mated),Larvae
+"Mediterranean
+Fruit Fly
+(Ceratitus capitata)",1975-1976,Venice,Los Angeles,KLAX,,11/14/75,8/2/76,100,Q02MED01,77,,,,12
+,1980,Northridge,Los Angeles,KBUR,,7/15/80,12/18/80,100,Q03MED02,4,,,,1
+,1980-1982,Santa Clara,Santa Clara,KSFO,,7/15/80,9/21/82,3971,Q04MED03,400,,,,
+,1987-1988,East LA/Maywood,Los Angeles,KLAX,,8/21/87,2/5/88,110,Q12MED04,42,,,,1
+,1988,Northridge,Los Angeles,KBUR,,7/27/88,11/15/88,62,Q15MED05,6,,,,
+,1988-1989,West Los Angeles,Los Angeles,KLAX,,10/7/88,6/12/89,76,Q16MED06,48,,,,1
+,1989-1990,Elysia Park,Los Angeles,KBUR,,8/10/89,11/9/90,1362,Q18MED07,270,,,,27
+,1989-1990,Mountain View,Santa Clara,KSFO,,9/11/89,9/14/90,60,Q19MED08,25,,,,2
+,1991-1996,Los Angeles,Los Angeles,KLAX,,10/16/91,6/15/96,1576,Q24MED09,566,,,,274
+,1992-1993,San Jose,Santa Clara,KSFO,,8/4/92,10/14/93,62,Q26MED10,129,,,,21
+,1992,Oceanside,San Diego,KSAN,,7/4/92,12/15/92,30,Q28MED11,2,,,,
+,1994-1995,Camarillo,Ventura,KBUR,*,10/6/94,8/15/95,86,Q32MED12,66,,,,1
+,1997-1998,Walnut Park,Los Angeles,KLAX,,10/1/97,4/16/98,69,Q37MED13,23,,,,
+,1998-1999,Lake Forest,Orange,KLAX,*,8/6/98,8/27/99,63,Q40MED14,11,,,,1
+,1998-1999,LaJolla,San Diego,KSAN,,8/11/98,6/1/99,30,Q41MED15,7,,,,
+,1998-1999,Lake Elsinore,Riverside,KRIV,,11/5/98,8/16/99,180,Q43MED16,75,,,,39
+,2001-2002,Hyde Park,Los Angeles,KLAX,,9/7/01,6/10/02,53,Q49MED17,,,,2,16
+,2005-2006,Rancho Cucamonga,San Bernardino,KRIV,,10/7/05,9/5/06,204,Q59MED18,2,6,1,19,3
+,2005-2006,San Jose,Santa Clara,KSFO,,10/19/05,9/12/06,77,Q60MED19,,,2,,
+,2007-2008,Dixon,Solano,KFAT,*,9/17/07,8/8/08,114,Q64MED20,10,2,2,,62
+,2007-2008,San Jose,Santa Clara,KSFO,,10/15/07,8/4/08,75,Q65MED21,3,4,,,
+,2007-2008,Rolling Hills,Los Angeles,KLAX,,10/29/07,8/13/08,97,Q66MED22,2,3,4,12,17
+,2008-2009,El Cajon,San Diego,KSAN,,11/26/08,7/22/09,107,Q69MED23,3,4,6,8,2
+,2008-2009,Spring Valley,San Diego,KSAN,,12/18/08,8/23/09,93,Q71MED24,1,,,1,
+,2009,Mira Mesa,San Diego,KSAN,,6/1/09,10/24/09,106,Q72MED25,2,1,,3,27
+,2009-2010,Imperial Beach,San Diego,KSAN,,8/17/09,1/7/10,37,Q75MED26,,,,1,
+,2009-2010,Escondido,San Diego,KSAN,,9/24/09,8/14/10,198,Q76MED27,4,1,,2,36
+,2009-2010,Fallbrook,San Diego,KSAN,,11/16/09,8/2/10,79,Q77MED28,3,,,1,68
+,2009-2010,Santa Monica,Los Angeles,KLAX,,11/16/09,8/18/10,65,Q78MED29,,,1,2,
+,2012-2013,Rancho Cucamonga,San Bernardino,KRIV,,8/24/12,3/15/13,88,Q84MED30,3,1,,,
+,2014,Los Angeles,Los Angeles,KLAX,,3/12/14,8/28/14,88,Q86MED31,7,13,8,,11
+,2014-2015,Perris,Riverside,KRIV,,12/22/14,6/29/15,83,Q88MED32,9,2,,1,9
+,2015-2016,La Mesa,San Diego,KSAN,,7/30/15,10/25/15,93,Q92MED33,4,,,,
+,2016-2017,Arleta,Los Angeles,KBUR,,11/19/16,5/31/17,127,Q95MED34,3,,5,10,113
