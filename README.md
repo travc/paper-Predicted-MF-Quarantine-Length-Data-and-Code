@@ -1,6 +1,8 @@
 # paper-Predicted-MF-Quarantine-Length-Data-and-Code
 Data and code for the paper "Evaluation of predicted Medfly (Ceratitis capitata) quarantine length in the United States utilizing degree-day and agent-based models" by Travis C. Collier and Nicholas C. Manoukis
 
+Release v1.0: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1006698.svg)](https://doi.org/10.5281/zenodo.1006698)
+
 ### General Notes
 
 `.ipnb` files are Jupyter Notebooks (Python 3 kernel), which GitHub helpfully displays nicely.
